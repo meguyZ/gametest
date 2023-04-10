@@ -1,0 +1,123 @@
+*{
+
+    margin: 0;
+    left: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+
+    background-image: url(https://www.blockmango.com/static/images/editor/banner2.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0,0 ,0.1);
+
+}
+
+.login{
+
+    width: 400px;
+
+}
+
+form{
+
+    width: 250px;
+    margin: 60px auto;
+
+}
+
+h1{
+
+    margin: 20px;
+   text-align: center;
+   font-weight: bolder;
+   text-transform: uppercase;
+
+}
+
+hr{
+
+    border-top: 2px solid #2cdcff;
+
+}
+
+p{
+
+    text-align: center;
+    margin: 10px;
+
+}
+
+.right img{
+
+    width: 450px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+form label{
+
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    margin-top: 2rem;
+
+}
+
+input{
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #2cfff8;
+
+}
+
+button{
+  
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+    background:#2cfff8;
+    text-decoration: none;
+
+}
+
+button:hover{
+
+    background: rgb(64, 119, 214);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a{
+    color: #fff;
+}
